@@ -1,3 +1,0 @@
-##### WITFOREST
-
-It means wisdom grows like the forests...

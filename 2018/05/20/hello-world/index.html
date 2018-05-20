@@ -29,25 +29,25 @@
               
             
 
-              <a class="header-menu-link" id="header-menu-home" href="/">Home</a>     
+              <a class="header-menu-link" id="header-menu-home" href="/">首頁</a>     
 
             
             
             
 
-              <a class="header-menu-link" id="header-menu-archives" href="/archives">Archives</a>     
+              <a class="header-menu-link" id="header-menu-archives" href="/archives">歸檔</a>     
 
             
             
             
 
-              <a class="header-menu-link" id="header-menu-tags" href="/tags">Tags</a>     
+              <a class="header-menu-link" id="header-menu-tags" href="/tags">標籤</a>     
 
             
             
             
 
-              <a class="header-menu-link" id="header-menu-about" href="/about">About</a>     
+              <a class="header-menu-link" id="header-menu-about" href="/about">關於</a>     
 
             
             
@@ -79,7 +79,7 @@
 
 	<div class="meta-info">	
 	<span>
-		May 20, 2018
+		5月 20, 2018
 	</span>
 
 	
@@ -171,24 +171,42 @@
 	
 
 
-    
-    <div id="disqus_thread"></div>
+    <div id="comment">   
+    </div>
+
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+
+    <script src="//unpkg.com/valine@v1.1.8-beta/dist/Valine.min.js"></script>
 
     <script>
-    (function() { 
-    var d = document, s = d.createElement('script');
-    s.src = 'https://'+'lemonreds'+'.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());    
-    (d.head || d.body).appendChild(s);
-    })();
+        new Valine({
+        el: '#comment',
+        notify:false, 
+        verify:false, 
+        app_id: 'VAi2zvaVfrv8vTEfgonJSK7I-gzGzoHsz',
+        app_key: 'EBNyOtfU0ORfcc5ITLvN9Cvf',  
+        path:window.location.pathname, 
+        avatar:'mm' ,
+        guest_info:['nick','mail']
+        });
     </script>
-
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-    </noscript>
-
-
 	
 </article>
+
+
+	<div id="toc">		
+
+		<div class="toc-container">	
+
+		<span class="toc-contents"> 
+			目錄
+		</span>
+
+		<ul class="toc-list"></ul>
+
+		</div>
+
+	</div>
 
           </section> 
       </div>            
@@ -207,7 +225,7 @@
 
 
             <div class="search-header">
-            <input type="text" placeholder="Typing Something here." id="search-input" class="search-input">  
+            <input type="text" placeholder="输入你想搜索的" id="search-input" class="search-input">  
             <span class="search-cancel iconfont icon-cancel"></span>
           
             </div>
@@ -226,49 +244,36 @@
          
             
 
-            <a class="mobile-menu-link" href="/">Home
+            <a class="mobile-menu-link" href="/">首頁
             </a>
             
          
             
 
-            <a class="mobile-menu-link" href="/archives">Archives
+            <a class="mobile-menu-link" href="/archives">歸檔
             </a>
             
          
             
 
-            <a class="mobile-menu-link" href="/tags">Tags
+            <a class="mobile-menu-link" href="/tags">標籤
             </a>
             
          
             
 
-            <a class="mobile-menu-link" href="/about">About
+            <a class="mobile-menu-link" href="/about">關於
             </a>
             
          
                           
 
-            <a class="mobile-menu-link mobile-menu-search" href="#">Search </a>                 
+            <a class="mobile-menu-link mobile-menu-search" href="#">搜索 </a>                 
             
          
       
 </div>        
     
-
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?636802045446222199ae541e32c8133e"; 
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
-
 
 
 
